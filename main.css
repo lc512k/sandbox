@@ -21,11 +21,11 @@ body {
 }
 
 .topbar {
-  background: tomato;
+/*  background: tomato;*/
 }
 
 header {
-  background: pink;
+/*  background: pink;*/
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -36,42 +36,43 @@ header {
 }
 
 nav {
-  background: grey;
 }
 
 nav .hamburguer {
-  background: brown;
+/*  background: brown;*/
   display: block;
 }
 
 nav ul {
-  background: brown;
+  background: lightgrey;
+  border: 1px solid black;
   display: none;
+  width: 100%;
 }
 
 nav ul li {
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   padding: 10px;
+  font-size: 20px;
 }
 
 article {
-  background: bisque;
   padding: 5px;
   margin: 10px;
 }
 
 .footer {
-  background: lightgreen;
+/*  background: lightgreen;*/
 }
 
 .main {
   text-align: left;
-  background: deepskyblue;
+/*  background: deepskyblue;*/
 }
 
 .aside {
-  background: hotpink;
+/*  background: hotpink;*/
   display: none;
 }
 
@@ -90,16 +91,15 @@ article {
     display: none;
   }
   .aside {
-    flex: 1 auto;
+    flex: 1 1 auto;
     display: block;
   }
 
   .aside article {
-    background: orange;
   }
 
   .main {
-    flex: 3 0;
+    flex: 3 0 auto;
   }
 
   .main {
@@ -116,7 +116,6 @@ article {
 
   .social {
     display: block;
-    background: pink!important;
     display: block!important;
   }
 
@@ -155,7 +154,7 @@ article {
 }
 
 .name {
-  background: lightblue;
+/*  background: lightblue;*/
   font-family: cursive;
   font-size: 40px;
   order: 2;
@@ -167,7 +166,7 @@ article {
 }
 
 .social {
-  background: blue;
+/*  background: blue;*/
   order: 3;
   display: none;
 }
