@@ -1,5 +1,7 @@
 body {
   padding: 2em;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
 }
 
 .wrapper {
@@ -10,7 +12,6 @@ body {
   display: flex;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
-  font-weight: bold;
   text-align: center;
 }
 
@@ -46,6 +47,12 @@ nav .hamburguer {
 nav ul {
   background: brown;
   display: none;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
 }
 
 article {
@@ -109,25 +116,54 @@ article {
 
   .social {
     display: block;
-    background: red!important;
+    background: pink!important;
     display: block!important;
+  }
+
+  .social ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .social li {
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+  }
+
+  .social__facebook {
+    background: blue;
+  }
+  .social__twitter {
+    background: lightblue;
+  }
+  .social__google {
+    background: red;
   }
 }
 
-
-
-
-
-
-
 .logo {
-  background: cyan;
-    order: 1;
+  color: white;
+  background: grey;
+  order: 1;
+  height: 70px;
+  flex-basis: 70px;
+  line-height: 70px;
 }
 
 .name {
   background: lightblue;
-    order: 2;
+  font-family: cursive;
+  font-size: 40px;
+  order: 2;
+  line-height: 65px;
+  text-align: left;
+  padding-left: 10px;
+  flex-grow: 3;
+  font-family: ;
 }
 
 .social {
